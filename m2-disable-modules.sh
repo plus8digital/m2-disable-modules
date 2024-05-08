@@ -46,17 +46,17 @@ bin/magento module:disable Magento_TwoFactorAuth
 bin/magento module:disable Magento_SampleData
 bin/magento module:disable Magento_Version
 
-Magento_PageBuilderPwa
-Magento_ReCaptchaPwa
+bin/magento module:disable Magento_PageBuilderPwa
+bin/magento module:disable Magento_ReCaptchaPwa
 
-Magento_EavGraphQlAux
-Magento_CatalogGraphQlAux
-Magento_InventoryQuoteGraphQl
-Magento_CatalogInventoryGraphQl
-Magento_SalesGraphQlAux
-Magento_InventoryGraphQl
-Magento_WeeeGraphQlAux
-Magento_UrlRewriteGraphQlPwa
+bin/magento module:disable Magento_EavGraphQlAux
+bin/magento module:disable Magento_CatalogGraphQlAux
+bin/magento module:disable Magento_InventoryQuoteGraphQl
+bin/magento module:disable Magento_CatalogInventoryGraphQl
+bin/magento module:disable Magento_SalesGraphQlAux
+bin/magento module:disable Magento_InventoryGraphQl
+bin/magento module:disable Magento_WeeeGraphQlAux
+bin/magento module:disable Magento_UrlRewriteGraphQlPwa
 
 # setup upgrade and clean cache
 bin/magento setup:upgrade
