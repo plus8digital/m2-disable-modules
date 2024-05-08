@@ -1,4 +1,4 @@
-Magento_Amqp
+bin/magento module:disable Magento_Amqp
 bin/magento module:disable Vertex_AddressValidation 
 bin/magento module:disable Vertex_AddressValidationApi 
 bin/magento module:disable Vertex_Tax 
